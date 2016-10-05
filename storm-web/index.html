@@ -1,17 +1,116 @@
 <!DOCTYPE html>
 <html>
 <head>
-   
-<h1>TATIANA AARONS</h1>
+<style>
+    
+    p.arial {
+        font-family: "Arial Black";
+        font-size: 150%; 
+    }
+    
+    .header {
+        font-family: "Arial Black";
+        font-size: 300%; 
+        text-align:center;
+        
+    }
+       
+     .caption {
+        font-family: "Arial";
+        font-size: 75%; 
+        text-align:center;
+  
+         
+<!-- 
+        I got the code for the circle from https://davidwalsh.name/css-circles to create my signature color field which consists of four descending circles. I adjusted the width and height values to create the varying sizes.
+            
+            
+        I pulled the code for the navigation bar from http://www.w3schools.com/css/css_navbar.asp. I already had an unordered list but I modified it to have no padding, margin, or list style as per the site's instructions. I adjusted the block color to be a variation of my signature color, and then adjusted little aesthetic values like font size, type, and padding. I made the navigation bar horizontal because the vertical navigational bar looked chunky.  
+            
+  -->
+    
+    }
+    .circle1 {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px; 
 
-<body>
-   <h2> Design Dating</h2>
-   <p> My name is Tatiana Aarons and I feel like a pile of mice stacked on top if each other, covered in a trench coat, pretending to be a functioning human being. I love film and television, writing, and my friends. I also dislike some of my friends as well as loud chewers. I'd say my preferred creative media is video and my favorite applications are Spotify, Pinterest, and YouTube (is that considered an application?).</p>
+     
+}
+    .circle2 {
+	border-radius: 50%;
+	width: 125px;
+	height: 125px; 
+     
+}
+    .circle3 {
+	border-radius: 50%;
+	width: 75px;
+	height: 75px; 
+
+
+}
+     .circle4 {
+	border-radius: 50%;
+	width: 25px;
+	height: 25px; 
+
+}
+
+.signature {
+  background: #e2f7fd;
+}
+    
+    
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
    
-   <h3> Favorite websites </h3>
-   <a href="http://www.youtube.com">Youtube</a>
-   <a href="http://www.google.com/calendar">Google Calendar</a>
-   <a href="http://www.wikipedia.org">Wikipedia</a>
-   </body>
-    </head>
+}
+
+li a {
+    display: block;
+    background-color: #DDE5E5;
+    color: #000;
+    padding: 18px;
+    text-decoration: none;
+    font-family: "Arial";
+    font-size: 95%; 
+}
+
+li {
+    float:left    
+    }
+    
+li a:hover {
+    background-color: #000;
+    color: white;
+}
+</style>
+
+<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="css/custom-w3.css">
+
+</head>
+<body class="w3-container">
+
+    <h1 class="header">TATIANA AARONS</h1>
+    <h2 class="caption"><i>Zen Blue ~ Chosen as a reminder for myself and others to calm the flub down</i></h2>
+    <p class="arial">Navigate</p>
+    
+    <div class="blurb">
+
+<ul>
+  <li><a href="http://storm.usc.edu/~bainsaar/iml300/assignments/about.html" >About</a></li>
+  <li><a href="http://storm.usc.edu/~bainsaar/iml300/assignments/links.html" >Links</a></li>
+  <li><a href="http://storm.usc.edu/~bainsaar/iml300/assignments/assignments.html" >Assignments</a></li>
+</ul>
+
+<div class="circle1 signature"></div>
+<div class="circle2 signature"></div>
+<div class="circle3 signature"></div>
+<div class="circle4 signature"></div>
+
+</body>
 </html>
